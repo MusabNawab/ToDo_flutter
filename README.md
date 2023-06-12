@@ -3,7 +3,7 @@
 
 To Do app using Flutter and Hive
 
-### Live version: [click here](https://musabnawab.github.io/ToDo_flutter/)
+### Try it now: [click here](https://musabnawab.github.io/ToDo_flutter/)
 
 ### Download APK: [click here](https://github.com/MusabNawab/ToDo_flutter/tree/main/apk)
 
