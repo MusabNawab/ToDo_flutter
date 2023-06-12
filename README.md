@@ -19,7 +19,4 @@ then replace the lib folder and pubspec.yaml file with mine
 
 
 ## Demo
-
-[![SuG0Z.gif](https://s11.gifyu.com/images/SuG0Z.gif)](https://gifyu.com/image/SuG0Z)
-
-
+![Demo File](https://github.com/MusabNawab/ToDo_flutter/blob/main/demo/todo.gif)
