@@ -1,22 +1,16 @@
+# todo
 
-# To Do
+A new Flutter project.
 
-To Do app using Flutter and Hive
+## Getting Started
 
-### Try it now: [click here](https://musabnawab.github.io/ToDo_flutter/)
+This project is a starting point for a Flutter application.
 
-### Download APK: [click here](https://github.com/MusabNawab/ToDo_flutter/tree/main/apk)
+A few resources to get you started if this is your first Flutter project:
 
-## Cloning the project
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-
-Cloning the To Do App 
-
-```bash
-  flutter create todo
-```
-then replace the lib folder and pubspec.yaml file with mine
-
-
-## Demo
-![Demo File](https://github.com/MusabNawab/ToDo_flutter/blob/main/demo/todo.gif)
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
