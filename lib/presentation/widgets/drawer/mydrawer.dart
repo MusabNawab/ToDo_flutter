@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:todo/constants/constants.dart';
 import 'package:open_store/open_store.dart';
@@ -83,12 +84,14 @@ class MyDrawer extends StatelessWidget {
               color: Colors.black,
               title: "Rate this App",
               bottomSpacing: 20,
-              handler: () async {
-                await OpenStore.instance.open(
-                  androidAppBundleId:
-                      'com.todo', // Android app bundle package name
-                );
-              },
+              handler: kIsWeb
+                  ? () {}
+                  : () async {
+                      await OpenStore.instance.open(
+                        androidAppBundleId:
+                            'com.todo', // Android app bundle package name
+                      );
+                    },
             ),
             Options(
               icon: Icons.policy,
